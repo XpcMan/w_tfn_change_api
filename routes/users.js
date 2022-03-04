@@ -7,7 +7,7 @@ const user = {
 }
 
 router.get('/',(req,res)=>{
-    res.send(user.phone_number);
+    res.send(user);
 })
 
 router.post('/',(req,res)=>{
